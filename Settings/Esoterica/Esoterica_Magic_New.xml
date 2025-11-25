@@ -1,0 +1,17 @@
+﻿<Esotericas><List>
+
+	<Esoterica Name="Magic_Zaohua_1">
+		<DisplayName>造化鱼土</DisplayName>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<!--<Desc>运功替一个目标治疗其受到的内门伤害。</Desc>-->
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：造化鱼土\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>BuildLing1</li>
+		</Magics>
+	</Esoterica>
+  
+</List></Esotericas>

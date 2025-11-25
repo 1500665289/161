@@ -1,0 +1,52 @@
+<Magics><List>
+
+  <Magic Name="SoulCrystalYouPowerUp">
+		<DisplayName>幽淬之法</DisplayName>
+		<Desc>对一个物品使用，消耗幽珀一个，有几率提高物品阶级1阶。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>3000</CostLing>
+		<CMD>SoulCrystalYouPowerUp</CMD>
+		<SelectType>SoulCrystalYouPowerUp</SelectType>
+	</Magic>
+	
+	<Magic Name="SoulCrystalLingPowerUp">
+		<DisplayName>灵淬之法</DisplayName>
+		<Desc>对一个物品使用，消耗灵珀一个，有几率提高物品的灵气容纳率（如果是法宝则会提高其灵气容量）。</Desc>
+		<Icon>res\Sprs\ui\icon_lingcui01</Icon>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>3000</CostLing>
+		<CMD>SoulCrystalLingPowerUp</CMD>
+		<SelectType>SoulCrystalLingPowerUp</SelectType>
+	</Magic>
+	
+	<Magic Name="BuidPuppet">
+		<DisplayName>赋灵术</DisplayName>
+		<Desc>对傀儡释放，赋予其灵性。赋灵的傀儡可以承担一些简单的苦力劳动，其素质与傀儡制作的品阶有关。\n[color=#D06508]每个修行者只可操纵一个傀儡[/color]</Desc>
+		<Icon>res\Sprs\ui\icon_kuilei01</Icon>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>100</CostLing>
+		<CMD>BuildPuppet</CMD>
+		<SelectType>BuildPuppet</SelectType>
+	</Magic>
+  
+	<Magic Name="BuildLing1" Type="Class">
+		<DisplayName>造化鱼土</DisplayName>
+		<ItemCost>
+			<li name="Item_ZaoHuaYuZi1" count="1"/>
+		</ItemCost>		
+		<Desc>以秘法一次性激发造化鱼籽之灵效，将一片区域化为灵土。</Desc>
+		<CMD>dasda</CMD>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Ellipse</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<sParam1>LingSoil</sParam1>
+		<Param1>49</Param1>
+		<SelectTarget>InLight</SelectTarget>
+		<ClassName>Magic_BuildSea</ClassName>
+		<MaxArea>900</MaxArea>
+		<TargetDesc>请选择一块空地</TargetDesc>
+		<CostLing>100</CostLing>
+	</Magic>
+  
+</List></Magics>

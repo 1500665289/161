@@ -1,0 +1,29 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_Mushroom" Parent="IngredientBase">
+	<TexPath>res\Sprs\object\object_fungus</TexPath>	
+	<ThingName>香菇</ThingName>
+	<Desc>一篮香菇。</Desc>
+	<MaxStack>1000</MaxStack>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item>
+		<FabaoSuffix>篮,菇</FabaoSuffix>
+		<Food>
+			<EatDirectable>0</EatDirectable>
+			<Nutrition>50</Nutrition>
+		</Food>
+    <Rot>
+			<RotSpeed>0.005</RotSpeed>
+			<DaysToRotStart>100</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

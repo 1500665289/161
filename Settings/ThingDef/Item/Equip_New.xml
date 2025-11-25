@@ -1,0 +1,31 @@
+<ThingDefs><List>
+  
+  <ThingDef Type="Item" Name="Item_CangLongHanXing" Parent="MaterialBase">
+    <ThingName>苍龙寒星</ThingName>
+    <TexPath>res/Sprs/object/object_linpian01</TexPath>
+    <MaxStack>1</MaxStack>
+    <Rate>12</Rate>
+    <Beauty>100</Beauty>
+    <Element>Shui</Element>
+    <Desc>修为高深的蛟龙不自觉会散发强烈的极寒真气，蕴含浓烈此气的鳞片会获得极其特殊的能力。若用其强化衣衫，则可获得刀枪不入，并且不惧炎热的能力。</Desc>
+    <Item Lable="Other"></Item>
+    <StoryBnts>
+			<li Name="附魔" Desc="选择一件衣衫进行附魔" Script="GameMain:GetMod('ZhiYaoZhuo').StrengthenItem(bind, 'ClothesBase', true, '选择一件衣衫进行附魔', '苍龙寒星衫', '着此衫者刀枪不入。')" Icon="res/Sprs/ui/icon_hand"/>
+    </StoryBnts>
+	</ThingDef>
+  
+  <ThingDef Type="Item" Name="Item_ZhenHuangChiYan" Parent="MaterialBase">
+    <ThingName>真凰炽焰</ThingName>
+    <TexPath>res\Sprs\object\object_jinmieyu01</TexPath>
+    <MaxStack>1</MaxStack>
+    <Rate>12</Rate>
+    <Beauty>100</Beauty>
+    <Element>Huo</Element>
+    <Desc>修为高深的凶凤会灼烧世间万物，其浓烈的真气会化作实形，若以此真气制成箭矢，则无坚不摧。</Desc>
+    <Item Lable="Other"></Item>
+    <StoryBnts>
+			<li Name="附魔" Desc="选择一副弓箭进行附魔" Script="GameMain:GetMod('ZhiYaoZhuo').StrengthenItem(bind, 'Item_WeaponBow', false, '选择一副弓箭进行附魔', '真凰炽焰弓', '使此弓者无坚不摧。')" Icon="res/Sprs/ui/icon_hand"/>
+    </StoryBnts>
+	</ThingDef>
+
+</List></ThingDefs>

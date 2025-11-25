@@ -1,0 +1,56 @@
+<Spells><List>	
+
+	<Spell Name="Spell_Intelligence">
+		<DisplayName>文昌符</DisplayName>
+		<Desc>使头脑清明，提高学习能力。</Desc>
+		<Template>Spell/main_texture_wenchang01</Template>
+		<UnLock>0</UnLock>
+		<Effects>
+			<li Name="IntelligenceSkillEXPConstant" AddP="5"/>
+		</Effects>
+	</Spell>
+	<Spell Name="Spell_MindState2">
+		<DisplayName>洞神符</DisplayName>
+		<Desc>可以使心境提高的符咒。</Desc>
+		<Template>Spell/main_texture_dongshen01</Template>
+		<UnLock>0</UnLock>
+		<Effects>
+			<li Name="MindStateBaseValue" AddV="35"/>
+		</Effects>
+	</Spell>
+	<Spell Name="Spell_DeepPracticeSpeedSpecialCoefficient2">
+		<DisplayName>洞玄符</DisplayName>
+		<Desc>可以提高修炼速度。</Desc>
+		<Template>Spell/main_texture_dongxuan01</Template>
+		<UnLock>0</UnLock>
+		<Effects>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
+		</Effects>
+	</Spell>
+  
+  <Spell Name="Spell_MindState1">
+		<DisplayName>宁心符</DisplayName>
+		<Desc>可以大幅提升精元转化率、饮气效率、修炼速度和学习速度。</Desc>
+		<Template>Spell/main_texture_ningxin01</Template>
+		<UnLock>0</UnLock>
+		<Effects>
+			<li Name="NutritionToJingYuanK" AddV="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1"/>
+      <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.6"/>
+      <li Name="IntelligenceSkillEXPConstant" AddP="0.6"/>
+		</Effects>
+	</Spell>
+	<Spell Name="Spell_DeepPracticeSpeedSpecialCoefficient1">
+		<DisplayName>天心符</DisplayName>
+		<Desc>可以大幅提升心情，并且降低食物、娱乐和饮水的消耗。</Desc>
+		<Template>Spell/main_texture_tianxin01</Template>
+		<UnLock>0</UnLock>
+		<Effects>
+			<li Name="NutritionConsumeConstant" AddP="-0.3"/>
+			<li Name="WaterConsumeConstant" AddP="-0.3"/>
+      <li Name="HappyConsumeConstant" AddP="-0.3"/>
+			<li Name="BaseEmotionAddV" AddV="50"/>
+		</Effects>
+	</Spell>
+  
+</List>	</Spells>

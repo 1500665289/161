@@ -1,0 +1,50 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_Other_PuppetTest" Parent="ToolBase">
+	<ThingName>傀儡</ThingName>
+	<TexScale>0.75</TexScale>
+	<TexPath>res\Sprs\object\object_6d6j001;res\Sprs\object\object_6d6j002</TexPath>
+	<Desc>一具傀儡。传闻《太和十六洞天》中记载有赋予傀儡灵性的秘法。</Desc>	
+	<Tags>
+		<Tag Name="Puppet" Level = "1"/>
+	</Tags>
+	<Rate>0</Rate>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<Prices>
+			<TalkType>2</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="50"/>
+				<SalePrice Value="25" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="100" />
+				<SalePrice Value="45" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="100" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FabaoSuffix>傀儡</FabaoSuffix>	
+		<BeMade>
+			<WorkToMake>180</WorkToMake>
+			<Quality>1</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>10</CostStuffCount>
+		</BeMade> 
+		<NotRandom>1</NotRandom>
+		<PhysicalLables>
+			<li>Heavy2</li>
+		</PhysicalLables>	
+	</Item>
+	</ThingDef>
+	
+</List></ThingDefs>
