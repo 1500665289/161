@@ -14,21 +14,12 @@ function tbModifier:Enter(modifier, npc)
 		Apply = 
 			function(_, map, k, tbMode) 
 				local t = tbMode:GetThing(g_emThingType.Item, k, map)
-        if t.IsGodFabao then
-          local owner = t:CheckSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.GodFabaoOwnerID)
-          local npc = CS.XiaWorld.ThingMgr.Instance:FindThingByID(owner)
-          if npc then
-            npc:RemoveSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.GodFabaoID)
-          end
-          t:RemoveSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.GodFabaoOwnerID)
-        else
-          t:BindItem2Npc(npc)
-        end
+        t:BindItem2Npc(npc)
 			end,
 		Check = 
 			function(_, map, k, tbMode) 
 				local t = tbMode:GetThing(g_emThingType.Item, k, map)
-				return t.IsMiBao or t.IsGodFabao
+				return t.IsMiBao
 			end,
 	}
 

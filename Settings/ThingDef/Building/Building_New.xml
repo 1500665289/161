@@ -59,16 +59,6 @@
 				<Count>1</Count>
 			</Produce>
       <Produce>
-				<ThingDef>Item_StoneBox2_1</ThingDef>
-				<Display>古旧石匣（真）</Display>
-				<Count>1</Count>
-			</Produce>
-      <Produce>
-				<ThingDef>Item_RandomGongFa</ThingDef>
-				<Display>功法奇匣</Display>
-				<Count>1</Count>
-			</Produce>
-      <Produce>
 				<ThingDef>Item_ZaoHuaYuZi1</ThingDef>
 				<Display>造化鱼籽</Display>
 				<Count>1</Count>
@@ -184,16 +174,6 @@
 				<ThingDef>Item_Dan_Breeding</ThingDef>
 				<Display>佛跳墙（山珍版）</Display>
 				<Count>10</Count>
-			</Produce>
-      <Produce>
-				<ThingDef>Item_Dan_ZhongLi</ThingDef>
-				<Display>重力丹</Display>
-				<Count>1</Count>
-			</Produce>
-      <Produce>
-				<ThingDef>Item_Dan_TiaoDaSheng</ThingDef>
-				<Display>跳大绳丹</Display>
-				<Count>1</Count>
 			</Produce>
       
 		</Produces>

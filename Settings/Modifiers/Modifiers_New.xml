@@ -157,67 +157,61 @@
 		<Display>0</Display>
     <LuaClassName>modifier_yinyangshuangyu</LuaClassName>
 	</Modifier>
-  <Modifier Name="Dan_ZhongLi" Type="Normal">
-		<DisplayName>重力丹</DisplayName>
-		<Desc></Desc>
-		<MaxStack>1</MaxStack>
-		<Duration>1</Duration>
-		<Display>0</Display>
-    <LuaClassName>modifier_zhongli</LuaClassName>
-	</Modifier>
-  <Modifier Name="Dan_TiaoDaSheng" Type="Normal">
-		<DisplayName>跳大绳丹</DisplayName>
-		<Desc></Desc>
-		<MaxStack>1</MaxStack>
-		<Duration>1</Duration>
-		<Display>0</Display>
-    <LuaClassName>modifier_tiaodasheng</LuaClassName>
-	</Modifier>
   
   <Modifier Name="Dan_FiveBase1" Type="Normal">
 		<DisplayName>通天丸</DisplayName>
-		<Desc>永久增强神识1点。</Desc>
+		<Desc>二十四个时辰内增强神识1点。</Desc>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<BaseFive>1,0,0,0,0</BaseFive>
-    <LuaClassName>modifier_fivebasedan</LuaClassName>
+		<Properties>
+			<li Name="MaxAge" AddV="-3"/>
+		</Properties>
 	</Modifier>  
 	<Modifier Name="Dan_FiveBase2" Type="Normal">
 		<DisplayName>纳地丸</DisplayName>
-		<Desc>永久增强根骨1点。</Desc>
+		<Desc>二十四个时辰内增强根骨1点。</Desc>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<BaseFive>0,1,0,0,0</BaseFive>
-    <LuaClassName>modifier_fivebasedan</LuaClassName>
+		<Properties>
+			<li Name="MaxAge" AddV="-3"/>
+		</Properties>
 	</Modifier>  
 	<Modifier Name="Dan_FiveBase3" Type="Normal">
 		<DisplayName>逸仙丸</DisplayName>
-		<Desc>永久增强魅力1点。</Desc>
+		<Desc>二十四个时辰内增强魅力1点。</Desc>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<BaseFive>0,0,1,0,0</BaseFive>
-    <LuaClassName>modifier_fivebasedan</LuaClassName>
+		<Properties>
+			<li Name="MaxAge" AddV="-3"/>
+		</Properties>
 	</Modifier>  
 	<Modifier Name="Dan_FiveBase4" Type="Normal">
 		<DisplayName>明通丸</DisplayName>
-		<Desc>永久增强悟性1点。</Desc>
+		<Desc>二十四个时辰内增强悟性1点。</Desc>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<BaseFive>0,0,0,1,0</BaseFive>
-    <LuaClassName>modifier_fivebasedan</LuaClassName>
+		<Properties>
+			<li Name="MaxAge" AddV="-3"/>
+		</Properties>
 	</Modifier>  
 	<Modifier Name="Dan_FiveBase5" Type="Normal">
 		<DisplayName>神佑丸</DisplayName>
-		<Desc>永久增强机缘1点。</Desc>
+		<Desc>二十四个时辰内增强机缘1点。</Desc>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,1</BaseFive>
-    <LuaClassName>modifier_fivebasedan</LuaClassName>
+		<Properties>
+			<li Name="MaxAge" AddV="-3"/>
+		</Properties>
 	</Modifier>
   
   

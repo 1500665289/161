@@ -10,12 +10,6 @@ function ZhiYaoZhuo:OnInit()
   maxling.MaxValue = maxling.MaxValue * 100
   fabaopower.MaxValue = maxling.MaxValue * 100
   spellpower.MaxValue = maxling.MaxValue * 100
-  
-  --将神国的可控神民上限提升100倍。
-  local logic_dict = CS.XiaWorld.GameDefine.sMindStateLevel2Logic
-  for k,v in pairs(logic_dict) do
-    v.SafePopulation = v.SafePopulation * 100
-  end
 end
 
 function ZhiYaoZhuo:OnEnter()

@@ -5,11 +5,6 @@ local tbModifier = tbTable:GetModifier("modifier_brokenneck");
 --注意：自定义modidifer要注意离开的时候将自定义效果移除
 --进入modifier
 function tbModifier:Enter(modifier, npc)
-  --神修吃了也能突破心境层次。
-  if npc.PropertyMgr.Practice and npc.PropertyMgr.Practice.GodPracticeData then
-    local god = npc.PropertyMgr.Practice.GodPracticeData
-    god:MindStateLevelLevelUp()
-  end
   if npc.PropertyMgr.Practice and npc.PropertyMgr.Practice.CurNeck then
     local neck = npc.PropertyMgr.Practice.CurNeck
     if neck.Kind ~= CS.XiaWorld.g_emGongBottleNeckType.Gold and neck.Kind ~= CS.XiaWorld.g_emGongBottleNeckType.Thunder and neck.Kind ~= CS.XiaWorld.g_emGongBottleNeckType.God then

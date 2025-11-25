@@ -36,8 +36,8 @@ end
 
 function tbModifier:Register()
   if GameMain:GetMod("MoreEvents").IsExist then
-    CS.MoreEvents.EventManager.AddEvent("OnReduceDamage", "Boss_Barrier", tbModifier.CallBack)
-    CS.MoreEvents.EventManager.AddEvent("OnReduceLingDamage", "Boss_Barrier", tbModifier.CallBack)
+    CS.MoreEvents.EventManager.AddEvent("OnReduceDamage", "Boss_Barrier", CallBack)
+    CS.MoreEvents.EventManager.AddEvent("OnReduceLingDamage", "Boss_Barrier", CallBack)
   end
 end
 
@@ -48,15 +48,17 @@ function tbModifier:Unregister()
   end
 end
 
-function tbModifier.CallBack(sender, e)
+function CallBack(sender, e)
   local damage = e.Return
   local target = e.Target
+  local modif = nil
   if target and target.PropertyMgr then
     modif = target.PropertyMgr:FindModifier("Boss_Barrier")
-    if modif and damage > target.MaxLing * 0.1 then --有护盾并且伤害值大于最大灵气的10%时，直接无视伤害。
-      print("伤害过量！")
-      return 0
-    end
   end
-  return damage
+  if modif and damage > target.MaxLing * 0.1 then --有护盾并且伤害值大于最大灵气的10%时，直接无视伤害。
+    print("too much damage!")
+    return 0
+  else
+    return damage
+  end
 end
