@@ -1,1 +1,15 @@
-{"Name":"了不起的制药桌模拟器","DisplayName":"了不起的制药桌模拟器-自用修改版","GameVersion":0.97092,"Version":1.5,"Desc":"[作者]\r\n    1021760520\r\n[简介]\r\n自用修改版,已更新到红尘众生版本\n了不起的制药桌模拟器-自用修改版\n1.更改道具介绍,直接说明道具详细效果,省得每次看说明\n2.更改制作材料,大量统一使用银杏果,不用养鸡生蛋\n3.移除了种植气温与速度的更改,避免于其他MOD冲突\n4.移除了符咒,敌人再也不会穿上了,避免于其他MOD冲突\n5.还原傀儡的材料,避免于其他MOD冲突\n6.移除古旧石匣（真）跟功法奇匣,避免于其他MOD冲突，平衡游戏","Author":"1021760520","UIPackage":null,"ID":"1940441986","Flag":206403691,"Tags":["Elixir","Item","Building","Function","Usability","Integrated","ExcludeRealmsHeaven"],"IncreasedDesc":"了不起的制药桌模拟器自用修改版,避免與其他Mod衝突,已更新到红尘众生版本","IsInsideCreat":false,"Previews":[]}
+{
+  "Name": "了不起的制药桌模拟器",
+  "DisplayName": "了不起的制药桌模拟器-自用修改版",
+  "GameVersion": "0.97092",
+  "Version": 1.5,
+  "Desc": "[作者]\n    1021760520\n[简介]\n自用修改版,已更新到红尘众生版本\n了不起的制药桌模拟器-自用修改版\n1.更改道具介绍,直接说明道具详细效果,省得每次看说明\n2.更改制作材料,大量统一使用银杏果,不用养鸡生蛋\n3.移除了种植气温与速度的更改,避免于其他MOD冲突\n4.移除了符咒,敌人再也不会穿上了,避免于其他MOD冲突\n5.还原傀儡的材料,避免于其他MOD冲突\n6.移除古旧石匣（真）跟功法奇匣,避免于其他MOD冲突，平衡游戏",
+  "Author": "1021760520",
+  "UIPackage": "",
+  "ID": "1940441986",
+  "Flag": "206403691",
+  "Tags": ["Elixir", "Item", "Building", "Function", "Usability", "Integrated", "ExcludeRealmsHeaven"],
+  "IncreasedDesc": "了不起的制药桌模拟器自用修改版,避免與其他Mod衝突,已更新到红尘众生版本",
+  "IsInsideCreat": false,
+  "Previews": []
+}
